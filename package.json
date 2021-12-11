@@ -1,0 +1,19 @@
+{
+  "name": "window",
+  "version": "1.0.0",
+  "description": "server for window project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Oscar",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "joi": "^17.4.2",
+    "jQuery": "^1.7.4",
+    "node-fetch": "^2.6.6",
+    "request": "^2.65.0"
+  }
+}

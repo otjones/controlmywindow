@@ -1,2 +1,4 @@
 Note: server code uses openweather API.
 API key has been removed from code to protect account
+
+node_modules not included, all info required in package-lock

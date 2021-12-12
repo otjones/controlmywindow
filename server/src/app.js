@@ -26,6 +26,23 @@ setInterval(async function () {
     tools.arrayAddLine(entry, "./data/log.json"),
     "./data/log.json"
   );
+
+  i_temp = entry["local"].temp;
+  rain = entry["weather"].rain;
+  wind = entry["weather"].wind;
+
+  if (
+    rain < 1 &&
+    wind < 3 &&
+    i_temp > 20 &&
+    windowStatus != "Manually Stopped"
+  ) {
+    const childPython = spawn("python", ["./src/motorFORWARD.py"]);
+    windowStatus = "Open";
+  } else {
+    const childPython = spawn("python", ["./src/motorBACKWARD.py"]);
+    windowStatus = "Closed";
+  }
 }, 1000 * 60 * 2);
 
 app.get("/", (req, res) => {

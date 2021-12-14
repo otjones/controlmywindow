@@ -11,7 +11,6 @@ Analysis - scripts to  estimate database size and perform data analysis
 Demonstration video:
 https://youtu.be/NgbbmP9EjUA
 
-===============================
 Description of all source files
 ===============================
 
@@ -41,7 +40,6 @@ Description of all source files
 /pinion.STL  - Pinion used in assembly. A right angled bracket was also stuck to the side of the pinion to actuate end stop switch
 /window.STL  - Main window mount clips over window frame and locks into place over the protrusion (shown in video)
 
-==========
 Parts list
 ==========
   

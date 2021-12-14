@@ -14,9 +14,9 @@ https://youtu.be/NgbbmP9EjUA
 Description of all source files
 ===============================
 
-/server/src/ST7735  - libraries for LCD display
-/server/src/bme280  - libraries for air quality sensor
-/server/src/fonts...  - font files for LCD display
+/server/src/ST7735  - libraries for LCD display  
+/server/src/bme280  - libraries for air quality sensor  
+/server/src/fonts...  - font files for LCD display  
 /server/src/i2cdevice  - I2C libraries for communication with Enviroboard from Raspberr Pi
 /server/src/app.js  - main Node.js file for hosting the server and handling requests
 /server/src/endStop.py  - watches microswitches and stoppes the motor when triggered. Is spawned by app.js and runs continuously

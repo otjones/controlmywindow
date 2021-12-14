@@ -2,6 +2,7 @@
 A project to control my living room window and collect and analyse air quality and weather data
 
 Source code split into:
+-----------------------
 Server - code to run on the Raspberry Pi
 Client - code hosted to run the dashboard on controlmywindow.co.uk
 Analysis - scripts to  estimate database size and perform data analysis

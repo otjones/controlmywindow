@@ -9,6 +9,10 @@ Analysis - scripts to  estimate database size and perform data analysis
 
 3D STL files for actuator assembly included   
 
+Recorded data from 12.05 20:27:09 to 12.16 01:40:20 (BST)
+---------------------------------------------------------
+log.json in repo
+
 Demonstration video:
 --------------------
 https://youtu.be/NgbbmP9EjUA

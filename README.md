@@ -49,11 +49,11 @@ Description of all source files
 Parts list
 ==========
   
-Motor - FIT0489-D DC GEARED MOTOR, BRUSHED (Farnell)
-Motor driver - SparkFun Motor Driver - Dual TB6612FNG (1A)
-Microswitches x2 - M140T01-AE0507A MICROSWITCH, SPDT, 5A, LONG LEVER (Farnell)
-Raspberry Pi 4 Model B
-Pimoroni Enviro Board - PIM486 ENVIRO PHAT BOARD, ENVIRO, AIR QUALITY (Farnell)
+Motor - FIT0489-D DC GEARED MOTOR, BRUSHED (Farnell)  
+Motor driver - SparkFun Motor Driver - Dual TB6612FNG (1A)  
+Microswitches x2 - M140T01-AE0507A MICROSWITCH, SPDT, 5A, LONG LEVER (Farnell)  
+Raspberry Pi 4 Model B  
+Pimoroni Enviro Board - PIM486 ENVIRO PHAT BOARD, ENVIRO, AIR QUALITY (Farnell)  
 Power supply (15v 1.5A) with step down to 12v and split to motor voltage of motor driver and another step down to 5v USB 3A  
   
 ngrok for Linux
